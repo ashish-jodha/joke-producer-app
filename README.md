@@ -1,16 +1,76 @@
-# React + Vite
+# 😂 The Comedy Club
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern React application that delivers random jokes with a premium dark-mode UI.
 
-Currently, two official plugins are available:
+Built using React, Tailwind CSS v4, and JokeAPI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Fetch random jokes using JokeAPI
+* Safe-for-work joke filtering
+* Supports both single-line and two-part jokes
+* Responsive dark-mode UI
+* Smooth hover and transition effects
+* Clean component-based architecture
+* Separate API handling logic for better maintainability
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS v4
+* **API:** JokeAPI v2
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure Node.js is installed on your machine.
+
+### Installation
+
+#### Clone the repository
+
+```bash
+git clone https://github.com/ashish-jodha/joke-producer-app.git
+```
+
+#### Navigate to the project folder
+
+```bash
+cd joke-producer-app
+```
+
+#### Install dependencies
+
+```bash
+npm install
+```
+
+#### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── Joker.jsx      # Main UI component and rendering logic
+├── JokeAPI.js     # API fetching logic
+└── index.css      # Global styles with Tailwind CSS v4
+```
+
+---
+
+## 👨‍💻 Designed & Built By
+
+Ashish Jodha
