@@ -1,28 +1,35 @@
 # 😂 The Comedy Club
 
-A clean and modern React application that delivers random jokes with a premium dark-mode UI.
+A modern React application that delivers random jokes with a sleek dark-mode interface.
 
-Built using React, Tailwind CSS v4, and JokeAPI.
+Powered by **React**, **Tailwind CSS v4**, and **JokeAPI**, the app supports both single-line and two-part jokes while maintaining a clean and responsive user experience.
+
+## 🌐 Live Demo
+
+👉 **https://react-joke-app-mu.vercel.app/**
 
 ---
 
 ## ✨ Features
 
-* Fetch random jokes using JokeAPI
-* Safe-for-work joke filtering
-* Supports both single-line and two-part jokes
-* Responsive dark-mode UI
-* Smooth hover and transition effects
-* Clean component-based architecture
-* Separate API handling logic for better maintainability
+* 😂 Fetch random jokes instantly using JokeAPI
+* 🔒 Safe-for-work joke filtering
+* 🎭 Supports both single-line and two-part jokes
+* 🌙 Modern dark-mode UI
+* ✨ Smooth hover effects and transitions
+* ♻️ Component-based architecture
+* 📦 Separate API handling for better maintainability
+* 📱 Fully responsive design
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React (Vite)
-* **Styling:** Tailwind CSS v4
-* **API:** JokeAPI v2
+| Technology      | Purpose                |
+| --------------- | ---------------------- |
+| React (Vite)    | Frontend Framework     |
+| Tailwind CSS v4 | Styling                |
+| JokeAPI v2      | Random Joke Generation |
 
 ---
 
@@ -30,29 +37,29 @@ Built using React, Tailwind CSS v4, and JokeAPI.
 
 ### Prerequisites
 
-Make sure Node.js is installed on your machine.
+Make sure you have **Node.js** installed.
 
 ### Installation
 
-#### Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/ashish-jodha/joke-producer-app.git
 ```
 
-#### Navigate to the project folder
+Navigate to the project directory:
 
 ```bash
 cd joke-producer-app
 ```
 
-#### Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-#### Start the development server
+Start the development server:
 
 ```bash
 npm run dev
@@ -71,6 +78,6 @@ src/
 
 ---
 
-## 👨‍💻 Designed & Built By
+## 👨‍💻 Author
 
-Ashish Jodha
+**Ashish Jodha**
